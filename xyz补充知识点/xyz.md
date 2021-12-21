@@ -571,7 +571,7 @@ sudo apt-get install ros-kinetic-genpy
 
 
 
-### 个人总结xyz_apt使用方法：
+### xyz_apt使用方法：
 
 ​	
 
@@ -598,7 +598,7 @@ sudo mv xyz_apt /bin/
 2、建立xyz_apt_server 安全连接与绑定
 
 ```python
-sudo xyz_apt aet_up_account
+sudo xyz_apt set_up_account
 
 
 
@@ -664,7 +664,11 @@ sudo xyz_apt list -a xyz-part-picking-vision
 
 
 
+8、看指定包的所有版本
 
+```
+sudo xyz_apt v
+```
 
 
 
